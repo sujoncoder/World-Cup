@@ -1,1 +1,172 @@
-* {}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 60px;
+    margin-top: 200px;
+    font-weight: 700;
+}
+
+header p {
+    color: white;
+    font-size: 16px;
+    color: gainsboro;
+}
+
+header button {
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header img {
+    width: 600px;
+    height: 600px;
+    margin-top: 30px;
+}
+
+/* ---------------------END HEADER PART------------------- */
+.shedule {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 130px;
+    margin-left: 20px;
+    position: sticky;
+}
+
+.shedule button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 15px 20px;
+    margin-top: 35px;
+    cursor: pointer;
+    margin-left: 28px;
+}
+
+.shedule button:hover {
+    background-color: rgb(161, 144, 122);
+    transition-duration: 0.s;
+}
+
+.shedule button:active {
+    background-color: rgb(1, 16, 66);
+}
+
+#upcm-button {
+    background-color: red;
+    color: white;
+}
+
+/* ------------------------------------------------------ */
+.second-section {
+    display: flex;
+}
+
+.flag-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+}
+
+.flag-area {
+    border: 1px solid rgb(189, 187, 187);
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+.flag-area:hover {
+    box-shadow: 1px 1px 10px rgb(175, 174, 174);
+    transition-duration: 0.7s;
+}
+
+.all-flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-flag h3 {
+    margin: 0 20px;
+}
+
+.flag-tittle {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.flag-tittle h1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+/* ---------------------END PLAYER SECTION------------------- */
+footer {
+    background-color: #161616;
+    padding: 50px 0;
+}
+
+.goal {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700px;
+    margin-bottom: 40px;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+}
+
+.under-footer {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    padding-top: 20px;
+}
+
+.under-footer li {
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.under-footer li:hover {
+    color: burlywood;
+}

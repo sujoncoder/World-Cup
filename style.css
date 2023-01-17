@@ -75,6 +75,16 @@ header img {
     margin-left: 28px;
 }
 
+.shedule button:hover {
+    background-color: rgb(161, 144, 122);
+    transition-duration: 0.5s;
+}
+
+.shedule button:active {
+    background-color: rgb(1, 16, 66);
+}
+
+
 #blog-button {
     background-color: red;
     color: white;
