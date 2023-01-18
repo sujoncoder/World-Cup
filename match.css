@@ -170,3 +170,172 @@ hr {
 .under-footer li:hover {
     color: burlywood;
 }
+
+/* --------------------- Media -------------------- */
+/* Smart phone device */
+
+/* Header section */
+@media only screen and (max-width: 428px) {
+    header {
+        background-color: #3d8354;
+        display: grid;
+    }
+
+    .hero-tittle {
+        width: 350px;
+        padding-left: 20px;
+    }
+
+    header h1 {
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    header img {
+        width: 380px;
+        height: 380px;
+        margin-top: 30px;
+    }
+
+    /* Blog section */
+    .second-section {
+        display: grid;
+    }
+
+    .shedule {
+        width: 85%;
+        height: 320px;
+        margin-top: 30px;
+        background-color: transparent;
+    }
+
+    .shedule button {
+        width: 285px;
+        font-size: 25px;
+    }
+
+    .flag-section {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 10px 0;
+    }
+
+    .player-section .player-img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .single-player {
+        width: 90%;
+        height: auto;
+        border: 1px solid rgb(112, 55, 55);
+        border-radius: 5px;
+    }
+
+    /* Footer section */
+
+    .goal {
+        margin-bottom: 20px;
+    }
+
+    .under-footer {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+    }
+
+    .under-footer li {
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    header {
+        background-color: #69746d;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+
+    .hero-tittle {
+        width: 350px;
+    }
+
+    header h1 {
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    header img {
+        width: 380px;
+        height: 380px;
+        margin-top: 30px;
+    }
+
+    /* Blog section */
+    .second-section {
+        display: grid;
+    }
+
+    .shedule {
+        display: flex;
+        width: 80%;
+        height: 100px;
+        background-color: transparent;
+        border-radius: 10px;
+        margin: auto;
+    }
+
+    .shedule button {
+        width: 270px;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .flag-section {
+        width: 95%;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+
+    .player-section .player-img {
+        width: 360px;
+        height: 200px;
+    }
+
+    .single-player {
+        margin: 10px 0;
+        width: 360px;
+        height: auto;
+        border: 1px solid rgb(112, 55, 55);
+        border-radius: 5px;
+    }
+
+    /* Footer section */
+
+    .goal {
+        margin-bottom: 20px;
+    }
+
+    .under-footer {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-between;
+    }
+
+    .under-footer li {
+        margin-top: 10px;
+    }
+
+}
